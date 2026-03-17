@@ -1,0 +1,3 @@
+com\mycompany\visitcounter\JakartaRestConfiguration.class
+com\mycompany\visitcounter\resources\JakartaEE11Resource.class
+com\visitcounter\CounterServlet.class
