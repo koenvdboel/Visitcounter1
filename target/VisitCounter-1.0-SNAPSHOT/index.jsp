@@ -187,13 +187,12 @@ Qquest Security Awareness
 </div>
 
 <h1>
-Je hebt zojuist een onbekende QR-code gescand
+Oh nee, je hebt zojuist een onbekende QR code gescand!
 </h1>
 
 <p class="intro">
-In dit geval kom je op een interne awareness-pagina terecht.
-In een echte situatie had deze QR-code ook kunnen leiden naar phishing,
-een nep-login of malware.
+Gelukkig is het deze keer niet het einde van de wereld, maar volgende keer kan het zo maar
+een nep login-pagina zijn of malware dat je telefoon infecteert.
 </p>
 
 <div class="counter-box">
@@ -203,15 +202,25 @@ ${visitCount}
 </div>
 
 <div class="label">
-keer gescand. Controleer altijd eerst de afzender en de URL voordat je een QR-code scant.
+keer gescand. Denk na voordat je een QR code scant en controleer altijd de bron.
 </div>
 
 </div>
 
 <p class="warning">
-<strong>Let op:</strong>
-een QR-code verbergt de link waar je naartoe wordt gestuurd.
-Vertrouw daarom niet automatisch op een sticker, poster of geprint vel papier.
+<strong>Voordat je de volgende keer een QR code scanned denk aan deze tips om dit op een veilige manier te doen:</strong><br><br>
+
+<strong>Vermijd het scannen van QR codes</strong><br>
+QR codes maken het soms heel makkelijk, maar waar mogelijk kan ze je het best vermijden. Volgende keer dus gewoon aan een collega vragen wat het wifi wachtwoord is.<br><br>
+
+<strong>Scan alleen QR codes uit betrouwbare bronnen</strong><br>
+Scan geen QR codes uit onverwachte berichten, op stickers of flyers, en ook niet uit onverwachte pakket- of bezorgmeldingen.<br><br>
+
+<strong>Check de URL voordat je de link opent</strong><br>
+Op Android kan je als je met de camera op een QR code richt al de URL van de QR code zien voordat je hier iets mee doet. Ziet de URL er verdacht uit? Gebruik de QR code dan niet.<br><br>
+
+<strong>Vul nooit inloggegevens of betalingsinformatie in via een QR code</strong><br>
+Legitieme bedrijven vragen vrijwel nooit naar dit soort informatie via een QR code. Ga zelf naar de website toe als je ergens wil inloggen.
 </p>
 
 <div class="footer">
