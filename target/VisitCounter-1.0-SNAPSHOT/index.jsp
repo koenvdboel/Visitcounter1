@@ -115,6 +115,36 @@ font-size:1rem;
 line-height:1.6;
 }
 
+/* Stats */
+
+.stats{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:16px;
+margin-bottom:28px;
+}
+
+.stat-box{
+background:rgba(21,28,58,.75);
+border:1px solid rgba(99,102,241,.2);
+border-radius:18px;
+padding:22px 18px;
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.stat-number{
+font-size:2rem;
+font-weight:700;
+color:#f8fafc;
+margin-bottom:8px;
+}
+
+.stat-label{
+font-size:.95rem;
+color:#cbd5e1;
+line-height:1.5;
+}
+
 /* Waarschuwing */
 
 .warning{
@@ -170,6 +200,10 @@ padding:36px 24px;
 font-size:.95rem;
 }
 
+.stats{
+grid-template-columns:1fr;
+}
+
 }
 
 </style>
@@ -207,21 +241,32 @@ keer gescand. Denk na voordat je een QR code scant en controleer altijd de bron.
 
 </div>
 
+<div class="stats">
+    <div class="stat-box">
+        <div class="stat-number">${visitsLast7Days}</div>
+        <div class="stat-label">scans in de afgelopen 7 dagen</div>
+    </div>
+
+    <div class="stat-box">
+        <div class="stat-number">${visitsLast30Days}</div>
+        <div class="stat-label">scans in de afgelopen 30 dagen</div>
+    </div>
+</div>
+
 <p class="warning">
 <strong>Voordat je de volgende keer een QR code scanned denk aan deze tips om dit op een veilige manier te doen:</strong><br><br>
 
 <strong>Vermijd het scannen van QR codes</strong><br>
 QR codes maken het soms heel makkelijk, maar waar mogelijk kan ze je het best vermijden. Volgende keer dus gewoon aan een collega vragen wat het wifi wachtwoord is.<br><br>
 
-<strong>Scan alleen QR codes uit betrouwbare bronnen</strong><br>
+<strong>Scan alleen Scan alleen QR codes uit betrouwbare bronnen</strong><br>
 Scan geen QR codes uit onverwachte berichten, op stickers of flyers, en ook niet uit onverwachte pakket- of bezorgmeldingen.<br><br>
 
 <strong>Check de URL voordat je de link opent</strong><br>
 Op Android kan je als je met de camera op een QR code richt al de URL van de QR code zien voordat je hier iets mee doet. Ziet de URL er verdacht uit? Gebruik de QR code dan niet.<br><br>
 
 <strong>Vul nooit inloggegevens of betalingsinformatie in via een QR code</strong><br>
-Legitieme bedrijven vragen vrijwel nooit naar dit soort informatie via een QR code. Ga zelf naar de website toe als je ergens wil inloggen.
-</p>
+Legitieme bedrijven vragen vrijwel nooit naar dit soort informatie via een QR code. Ga zelf naar de website toe als je ergens wil inloggen.</p>
 
 <div class="footer">
 © Qquest Security Awareness
